@@ -21,7 +21,7 @@ Sou **[Estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)  
 ![SQL](https://img.shields.io/badge/SQL-FFFFFF?style=for-the-badge&logo=amazon-dynamodb&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
-*(Adicione outras tecnologias conforme necessário)*
+
 
 ---
 
