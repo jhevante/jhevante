@@ -1,5 +1,5 @@
 <h1 align="center">
-  ⚡ Olá! ⚡
+  ⚡ Olá, seja bem-vindo! ⚡
 </h1>
 
 <h3 align="center">
