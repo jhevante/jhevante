@@ -1,12 +1,12 @@
 <h1 align="center">
-  ⚡ Olá, me chamo Jhennife de Souza Vicente! ⚡
+  ⚡ Olá! ⚡
 </h1>
 
 <h3 align="center">
     
 
 ### 👨‍💻 Sobre Mim:
-Sou **[Estudante na área de Análise e Desenvolvimento de Sistemas]** com experiência em **[Pyhton, Linguagem R e SQL]**. Sou muito entusiasmada por resolver problemas complexos e transformar ideias em código eficiente.
+Me chamo Jhennife de Souza Vicente, sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com experiência em **[Pyhton, Linguagem R e SQL]**. Sou muito entusiasmada por resolver problemas complexos e transformar ideias em código eficiente.
 
 🔭 Atualmente trabalhando em: **[Projetos que envolvam python e Power BI]**  
 🌱 Aprendendo atualmente: **[Linguagem Dax e Linguagem R]**  
