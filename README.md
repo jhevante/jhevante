@@ -27,8 +27,8 @@ Me chamo Jhennife de Souza Vicente, sou **[estudante na área de Análise e Dese
 
 ### 📊 Estatísticas do GitHub:
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=dracula" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=dracula" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JHEVANTE&show_icons=true&theme=dracula" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JHEVANTE&layout=compact&theme=dracula" />
 </div>
 
 ---
