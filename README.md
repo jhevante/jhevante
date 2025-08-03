@@ -34,7 +34,7 @@ Me chamo Jhennife de Souza Vicente, sou **[estudante na área de Análise e Dese
 ---
 
 ### 📌 Projetos Destacados:
-1. **[Controle Financeiro de 2023](link)** - Organzição do faturamento dos Quiosques presentes na orla do Rio de Janeiro, com a separação dos dados agrupados por região, podendo visualizar os faturamento mensal e anual dos pontos e, assim, tomar decisões estratégicas. Linguagens utlizadas: Pyhton.
+1. **[FINANCIAL INSIGHTS 2023](link)** - Organzição do faturamento dos Quiosques presentes na orla do Rio de Janeiro, com a separação dos dados agrupados por região, podendo visualizar os faturamento mensal e anual dos pontos e, assim, tomar decisões estratégicas. Linguagens utlizadas: Pyhton.
 
 
 2.  **[Lucros e Desepesas de Aulas Coletivas](link)** - Controle de dados provenientes do número de alunos que aderiram as aulas coletivas de uma academia, asssim como seus lucros, desesas e qual plano foi aderido. 
