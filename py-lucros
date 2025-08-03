@@ -1,0 +1,67 @@
+mport pandas as pd
+try:
+    df = pd.read_excel('faturamento_quiosques_rj_2025-07-28 (1).xlsx')
+except FileNotFoundError:
+    print("Erro: O arquivo 'faturamento_quiosques_rj_2025-07-28 (1).xlsx' não foi encontrado.")
+    print("Por favor, verifique o caminho do arquivo ou se ele está no diretório correto.")
+    exit()
+
+# Renomear colunas para facilitar o acesso (opcional, mas boa prática)
+df.columns = ['quiosque_id', 'nome_quiosque', 'regiao', 'faturamento', 'temporada']
+
+# Converter a coluna 'faturamento' para tipo numérico, tratando possíveis erros
+df['faturamento'] = pd.to_numeric(df['faturamento'], errors='coerce')
+
+# Remover linhas com valores nulos na coluna de faturamento, caso existam após a conversão
+df.dropna(subset=['faturamento'], inplace=True)
+
+# 1. Faturamento Total por Região
+faturamento_por_regiao = df.groupby('regiao')['faturamento'].sum().reset_index()
+faturamento_por_regiao.rename(columns={'faturamento': 'faturamento_total'}, inplace=True)
+
+# 2. Faturamento Médio Mensal por Região (assumindo que 'temporada' representa o mês)
+# Se 'temporada' for o mês, podemos agrupar por região e temporada e depois calcular a média
+faturamento_mensal_por_regiao = df.groupby(['regiao', 'temporada'])['faturamento'].sum().reset_index()
+faturamento_medio_mensal_por_regiao = faturamento_mensal_por_regiao.groupby('regiao')['faturamento'].mean().reset_index()
+faturamento_medio_mensal_por_regiao.rename(columns={'faturamento': 'faturamento_medio_mensal'}, inplace=True)
+
+# 3. Quiosques com Maior Faturamento (Top 5, por exemplo)
+top_quiosques = df.sort_values(by='faturamento', ascending=False).head(5)
+
+# 4. Análise de Faturamento por Temporada (se houver mais de uma temporada/mês)
+faturamento_por_temporada = df.groupby('temporada')['faturamento'].sum().reset_index()
+
+# 5. Quiosques com Faturamento Abaixo da Média da Região (para identificar quiosques que precisam de atenção)
+# Calcular a média de faturamento por região
+media_faturamento_regiao = df.groupby('regiao')['faturamento'].mean()
+
+# Mapear a média de faturamento de volta para o DataFrame original
+df['media_regiao'] = df['regiao'].map(media_faturamento_regiao)
+
+# Identificar quiosques abaixo da média
+quiosques_abaixo_media = df[df['faturamento'] < df['media_regiao']]
+
+# Exibir os resultados
+print("--- Faturamento Total por Região ---")
+print(faturamento_por_regiao)
+print("\n")
+
+print("--- Faturamento Médio Mensal por Região ---")
+print(faturamento_medio_mensal_por_regiao)
+print("\n")
+
+print("--- Top 5 Quiosques com Maior Faturamento ---")
+print(top_quiosques[['quiosque_id', 'nome_quiosque', 'regiao', 'faturamento']])
+print("\n")
+
+print("--- Faturamento Total por Temporada/Mês ---")
+print(faturamento_por_temporada)
+print("\n")
+
+print("--- Quiosques com Faturamento Abaixo da Média da Região ---")
+print(quiosques_abaixo_media[['quiosque_id', 'nome_quiosque', 'regiao', 'faturamento', 'media_regiao']])
+print("\n")
+
+# Para reaver o valor do contrato com base na negociação:
+valor_total_gerado_parceria = faturamento_por_regiao['faturamento_total'].sum()
+print(f"Valor total gerado pela parceria até o momento: R$ {valor_total_gerado_parceria:,.2f}")
