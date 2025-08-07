@@ -35,8 +35,7 @@ Sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
 
 ### 📌 Projetos Destacados:
 1. **[FINANCIAL INSIGHTS 2023](https://github.com/jhevante/Lucros-de-2023)** - Organzição do faturamento dos Quiosques presentes na orla do Rio de Janeiro, com a separação dos dados agrupados por região, podendo visualizar os faturamento mensal e anual dos pontos e, assim, tomar decisões estratégicas. Linguagens utlizadas: Pyhton.
-
-
+2. **[Sistema de Gestão de Transporte Urbano](link)** - Banco de dados que controle linhas de ônibus, veículos, motoristas, viagens realizadas, passageiros, e vendas de passagens.
 3.  **[Lucros e Desepesas de Aulas Coletivas](link)** - Controle de dados provenientes do número de alunos que aderiram as aulas coletivas de uma academia, asssim como seus lucros, desesas e qual plano foi aderido.
 
    ### 📈 Acompanhe minha evolução: 
