@@ -41,15 +41,14 @@ Sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
 
    ### 📈 Acompanhe minha evolução: 
   Veja alguns projetos e exercícios básicos de lógica da programação, usando o Portugol Studio, e alguns projetos da faculdade.
-  (Em andamento)
 
+1. **[Lógica de Programação com Portugol Studio](link)**
 
 
 ### 🌟 Prêmios/Certificações:
 - **[Gerenciamento de dados (50 horas)](link)** - Instituto Proa (2023)  
 - **[Plataforma Proa (100h)](link)** - Instituto Proa (2023)
 - **[Lingua Inglesa I e II(60h)](link)** - Instituto Anhanguera (2023)
-- **[Comunicação Empresarial(12h)](link)** - Fundação Bradesco (2023)
 - **[Microsoft Power BI Business Inteligence e Data Science (72h/a)**](Em andamento) - Data Science Academy 
 
 
