@@ -10,7 +10,7 @@ Sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
 
 🔭 Atualmente trabalhando em: **[Projetos que envolvam Python e Power BI]**  
 🌱 Aprendendo atualmente: **[Linguagem Dax e Linguagem R]**  
-💬 Pergunte-me sobre: **[Decisões tomadas por dados e Desenvolvimento]**  
+💬 Pergunte-me sobre: **[Desenvolvimento e análise de Banco de dados]**  
 📫 Como me encontrar: **[jhennife.contato@gmail.com]**  
 
 ---
@@ -40,9 +40,11 @@ Sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
 3.  **[Lucros e Desepesas de Aulas Coletivas](link)** - Controle de dados provenientes do número de alunos que aderiram as aulas coletivas de uma academia, asssim como seus lucros, desesas e qual plano foi aderido.
 
    ### 📈 Acompanhe minha evolução: 
-  Veja alguns projetos e exercícios básicos de lógica da programação, usando o Portugol Studio, e alguns projetos da faculdade.
-  (Em andamento)
+   Veja alguns dos meus projetos acadêmicos:
 
+  2. **[Sistema de Loja - MySQL](link)
+  3. **[Lógica de programação com Portugol Studio](link)** - 
+    
 
 
 ### 🌟 Prêmios/Certificações:
