@@ -41,7 +41,7 @@ Sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
    ### 📈 Acompanhe minha evolução: 
    Veja alguns dos meus projetos acadêmicos:
 
-  1. **[Sistema de Loja - MySQL](https://github.com/jhevante/Sistema-de-Loja-) - Estrutura de banco de dados criada usando MySQL. 
+  1. **[Sistema de Loja - MySQL](https://github.com/jhevante/Sistema-de-Loja-)** - Estrutura de banco de dados criada usando MySQL. 
     
 
 
