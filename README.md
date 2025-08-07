@@ -10,7 +10,7 @@ Me chamo Jhennife de Souza Vicente, sou **[estudante na área de Análise e Dese
 
 🔭 Atualmente trabalhando em: **[Projetos que envolvam Python e Power BI]**  
 🌱 Aprendendo atualmente: **[Linguagem Dax e Linguagem R]**  
-💬 Pergunte-me sobre: **[Decisões tomadas por dados]**  
+💬 Pergunte-me sobre: **[Decisões tomadas por dados e Desenvolvimento]**  
 📫 Como me encontrar: **[jhennife.contato@gmail.com]**  
 
 ---
