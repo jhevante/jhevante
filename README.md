@@ -38,6 +38,8 @@ Sou **[estudante na área de Análise e Desenvolvimento de Sistemas]** com exper
 1. **[Sistema de Gestão de Transporte Urbano](https://github.com/jhevante/Gestao-de-transporte-Urbano)** - Banco de dados que controle linhas de ônibus, veículos, motoristas, viagens realizadas, passageiros, e vendas de passagens.
 2. **[Python for data Analysis](https://github.com/jhevante/python-data-portifolio)** - 5 mini projetos em Python, aplicando conceitos de análise de dados, automação de processos e visualização.
 
+3. **[Lógica de programação com portugol studio](https://github.com/jhevante/portugol-studio)** - Exercícios básicos de lógica de programação.
+
    ### 📈 Acompanhe minha evolução: 
    Veja alguns dos meus projetos acadêmicos:
 
